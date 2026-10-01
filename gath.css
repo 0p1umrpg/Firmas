@@ -5,14 +5,11 @@
 .gath-img{position:absolute;inset:5px;background-size:cover;background-position:center;background-repeat:no-repeat;transition:filter .8s ease,transform 1s ease}
 .gath:before{content:"";position:absolute;inset:8px;z-index:10;border:1px solid var(--accent);pointer-events:none}
 .gath:after{content:"";position:absolute;inset:12px;z-index:10;border:1px solid rgba(220,205,200,.45);pointer-events:none}
-
-.gath-name{position:absolute;left:28px;top:118px;z-index:4;white-space:nowrap;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;line-height:1;letter-spacing:5px;text-transform:uppercase;color:#c5aaa1;text-shadow:0 2px 8px #000;transition:.6s ease}
+.gath-name{position:absolute;left:28px;top:118px;z-index:4;white-space:nowrap;font:400 28px/1 'Cormorant Garamond',Georgia,serif;letter-spacing:5px;text-transform:uppercase;color:#d5bab1;text-shadow:0 2px 4px #000,0 0 10px #000;transition:.6s ease}
 .gath-name:first-letter{font-size:52px;font-style:italic;letter-spacing:1px}
-
-.gath-phrase{position:absolute;left:35px;top:88px;width:190px;z-index:5;opacity:0;text-align:center;color:#c9ada4;text-shadow:0 2px 8px #000;transform:translateY(7px);transition:.7s ease .2s}
-.gath-phrase span{display:block;font-family:'Cormorant Garamond',Georgia,serif;font-size:13px;line-height:1.45;letter-spacing:3px;text-transform:uppercase}
-.gath-phrase em{display:block;margin-top:2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:27px;line-height:1;font-weight:400}
-
+.gath-phrase{position:absolute;left:30px;top:88px;width:195px;z-index:5;opacity:0;text-align:center;color:#d4b8af;text-shadow:0 2px 4px #000,0 0 10px #000;transform:translateY(7px);transition:.7s ease .2s}
+.gath-phrase span{display:block;font:500 13px/1.45 'Cormorant Garamond',Georgia,serif;letter-spacing:3px;text-transform:uppercase}
+.gath-phrase em{display:block;margin-top:2px;font:italic 400 27px/1 'Cormorant Garamond',Georgia,serif;letter-spacing:1px;color:#d8b8ae}
 .gath:hover .gath-img{filter:grayscale(1);transform:scale(1.02)}
 .gath:hover .gath-name{opacity:0;transform:translateY(5px)}
 .gath:hover .gath-phrase{opacity:1;transform:translateY(0)}
