@@ -5,8 +5,8 @@
 .gath-img{position:absolute;inset:5px;background-size:cover;background-position:center;background-repeat:no-repeat;transition:filter .8s ease,transform 1s ease}
 .gath:before{content:"";position:absolute;inset:8px;z-index:10;border:1px solid var(--accent);pointer-events:none}
 .gath:after{content:"";position:absolute;inset:12px;z-index:10;border:1px solid rgba(220,205,200,.45);pointer-events:none}
-.gath-name{position:absolute;left:30px;top:127px;z-index:4;white-space:nowrap;font:400 22px/1 'Bodoni Moda',serif;letter-spacing:5px;text-transform:uppercase;color:#fff;text-shadow:0 2px 4px #000,0 0 9px #000;transition:.6s ease}
-.gath-name:first-letter{font-size:40px;font-style:italic;letter-spacing:1px}
+.gath-name{position:absolute;left:30px;top:127px;z-index:4;white-space:nowrap;font-family:'Bodoni Moda',serif!important;font-size:22px!important;font-weight:400;line-height:1;letter-spacing:5px;text-transform:uppercase;color:#fff!important;text-shadow:0 2px 4px #000,0 0 9px #000;transition:.6s ease}
+.gath-name:first-letter{font-size:40px!important;font-style:italic;letter-spacing:1px}
 .gath-phrase{position:absolute;left:50%;top:88px;width:220px;z-index:5;opacity:0;text-align:center!important;color:#fff!important;text-shadow:0 2px 5px #000,0 0 12px #000;transform:translate(-50%,7px);transition:.7s ease .2s}
 .gath-phrase span{display:block;color:#fff!important;font:500 13px/1.45 'Cormorant Garamond',Georgia,serif;letter-spacing:3px;text-transform:uppercase}
 .gath-phrase em{display:block;margin-top:3px;color:#fff!important;font:italic 400 27px/1 'Cormorant Garamond',Georgia,serif;letter-spacing:1px}
