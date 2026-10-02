@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+.goldy{position:relative;width:350px;height:250px;margin:0 auto;padding:5px;box-sizing:border-box;overflow:hidden;background:linear-gradient(135deg,#3b3030 0%,#A38787 45%,#584646 72%,#A38787 100%)}
+.goldy br{display:none}
+.goldy-box{position:relative;width:100%;height:100%;overflow:hidden;background:#111}
+.goldy-img{position:absolute;inset:0;background-size:cover;background-position:center;background-repeat:no-repeat;transition:transform .9s ease,filter .9s ease}
+.goldy-shade{position:absolute;left:0;bottom:0;width:100%;height:100%;background:linear-gradient(to top,rgba(24,18,18,.92),rgba(45,35,35,.72));transform:translateY(101%);transition:transform .75s cubic-bezier(.65,0,.35,1)}
+.goldy-text{position:absolute;left:50%;top:50%;width:250px;transform:translate(-50%,-42%);opacity:0;text-align:center;font:500 10px/1.7 'Montserrat',Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#fff;text-shadow:0 2px 8px #000;transition:opacity .45s ease .45s,transform .6s ease .4s}
+.goldy-text:before{content:"";display:block;width:0;height:1px;margin:0 auto 12px;background:#A38787;transition:width .6s ease .6s}
+.goldy-text:after{content:"";display:block;width:0;height:1px;margin:12px auto 0;background:#A38787;transition:width .6s ease .6s}
+.goldy:hover .goldy-img{transform:scale(1.035);filter:brightness(.72)}
+.goldy:hover .goldy-shade{transform:translateY(0)}
+.goldy:hover .goldy-text{opacity:1;transform:translate(-50%,-50%)}
+.goldy:hover .goldy-text:before,.goldy:hover .goldy-text:after{width:110px}
