@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=IM+Fell+English+SC&display=swap');
+
+.gatha{--accent:#9A7F79;position:relative;width:350px;height:250px;margin:0 auto;overflow:hidden;box-sizing:border-box;background:#171515;border:5px solid #302829}
+.gatha br{display:none}
+.gatha-img{position:absolute;inset:5px;background-size:cover;background-position:center;background-repeat:no-repeat;transition:filter .8s ease,transform 1s ease}
+.gatha-dark{position:absolute;inset:5px;z-index:1;background:#000;opacity:0;transition:opacity .8s ease;pointer-events:none}
+.gatha:before,.gatha:after{content:"";position:absolute;z-index:3;pointer-events:none}
+.gatha:before{inset:8px;border:1px solid var(--accent)}
+.gatha:after{inset:12px;border:1px solid rgba(220,205,200,.45)}
+.gatha-name{position:absolute;left:30px;top:130px;z-index:4;white-space:nowrap;font-family:'IM Fell English SC',serif!important;font-size:18px!important;line-height:1;letter-spacing:3px;text-transform:uppercase;color:#fff!important;text-shadow:0 2px 4px #000,0 0 9px #000;transition:opacity .5s ease,transform .6s ease}
+.gatha-name:first-letter{font-size:32px!important;letter-spacing:1px}
+.gatha-phrase{position:absolute;left:50%;top:88px;width:220px;z-index:4;opacity:0;text-align:center!important;color:#fff!important;text-shadow:0 2px 5px #000,0 0 12px #000;transform:translate(-50%,7px);transition:opacity .6s ease .15s,transform .7s ease .15s}
+.gatha-phrase span{display:block;color:#fff!important;font:500 13px/1.45 'Cormorant Garamond',Georgia,serif;letter-spacing:3px;text-transform:uppercase}
+.gatha-phrase em{display:block;margin-top:3px;color:#fff!important;font:italic 400 27px/1 'Cormorant Garamond',Georgia,serif;letter-spacing:1px}
+.gatha:hover .gatha-img{filter:grayscale(1);transform:scale(1.02)}
+.gatha:hover .gatha-dark{opacity:.42}
+.gatha:hover .gatha-name{opacity:0;transform:translateY(5px)}
+.gatha:hover .gatha-phrase{opacity:1;transform:translate(-50%,0)}
