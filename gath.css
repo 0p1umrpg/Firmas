@@ -6,11 +6,11 @@
 .gath:before,.gath:after{content:"";position:absolute;z-index:2;pointer-events:none}
 .gath:before{inset:8px;border:1px solid var(--accent)}
 .gath:after{inset:12px;border:1px solid rgba(220,205,200,.45)}
-.gath-name{position:absolute;left:30px;top:127px;z-index:3;white-space:nowrap;font-family:'IM Fell English SC',serif!important;font-size:24px!important;font-weight:400;line-height:1;letter-spacing:4px;text-transform:uppercase;color:#fff!important;text-shadow:0 2px 4px #000,0 0 9px #000;transition:opacity .5s ease,transform .6s ease}
-.gath-name:first-letter{font-size:42px!important;letter-spacing:1px}
+.gath-name{position:absolute;left:30px;top:129px;z-index:3;white-space:nowrap;font-family:'IM Fell English SC',serif!important;font-size:20px!important;font-weight:400;line-height:1;letter-spacing:3.5px;text-transform:uppercase;color:#fff!important;text-shadow:0 2px 4px #000,0 0 9px #000;transition:opacity .5s ease,transform .6s ease}
+.gath-name:first-letter{font-size:36px!important;letter-spacing:1px}
 .gath-phrase{position:absolute;left:50%;top:88px;width:220px;z-index:3;opacity:0;text-align:center!important;color:#fff!important;text-shadow:0 2px 5px #000,0 0 12px #000;transform:translate(-50%,7px);transition:opacity .6s ease .15s,transform .7s ease .15s}
 .gath-phrase span{display:block;color:#fff!important;font:500 13px/1.45 'Cormorant Garamond',Georgia,serif;letter-spacing:3px;text-transform:uppercase}
 .gath-phrase em{display:block;margin-top:3px;color:#fff!important;font:italic 400 27px/1 'Cormorant Garamond',Georgia,serif;letter-spacing:1px}
-.gath:hover .gath-img{filter:grayscale(1) brightness(.82);transform:scale(1.02)}
+.gath:hover .gath-img{filter:grayscale(1) brightness(.68);transform:scale(1.02)}
 .gath:hover .gath-name{opacity:0;transform:translateY(5px)}
 .gath:hover .gath-phrase{opacity:1;transform:translate(-50%,0)}
