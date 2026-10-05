@@ -5,7 +5,14 @@
   max-width: 500px;
   margin: 30px auto;
   padding: 14px;
-  background: #faf9f7;
+  background: linear-gradient(
+    to right,
+    #ceced3 0%,
+    #ceced3 70%,
+    var(--vika-acento) 70%,
+    var(--vika-acento) 100%
+  );
+  border: 1px solid #aaa;
   box-shadow: 0 8px 28px #00000008;
   color: #4a4a4a;
   font-family: Georgia, "Times New Roman", serif;
@@ -19,6 +26,7 @@
   min-width: 0;
   margin: 0;
   padding: 22px 20px 24px;
+  background: #faf9f7;
   border: 1px solid var(--vika-acento);
 }
 
@@ -92,29 +100,7 @@
   .vikatab .vikatab-marco {
     padding: 20px 15px;
   }
-/* Marco exterior en espejo con el avatar */
-.vikatab {
-  background: linear-gradient(
-    to right,
-    #ceced3 0%,
-    #ceced3 70%,
-    var(--vika-acento) 70%,
-    var(--vika-acento) 100%
-  );
-  border: 1px solid #aaa;
-  padding: 14px;
-}
 
-.vikatab .vikatab-marco {
-  background: #faf9f7;
-  border: 1px solid var(--vika-acento);
-}
-
-@media (max-width: 450px) {
-  .vikatab {
-    padding: 10px;
-  }
-}
   .vikatab .vikatab-titulo {
     font-size: 36px;
   }
