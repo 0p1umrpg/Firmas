@@ -1,0 +1,12 @@
+.gatab{--gatab-acento:var(--grupo-color,#666673);box-sizing:border-box;width:100%;max-width:500px;margin:30px auto;padding:0;background:#fbfbfb;border:1px solid #ebebeb;border-left:8px solid var(--gatab-acento);box-shadow:0 10px 30px #0000000a;color:#4a4a4a;font-family:Georgia,'Times New Roman',serif}
+.gatab *{box-sizing:border-box}
+.gatab .gatab-head{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:center;min-height:145px;padding:22px 16px;margin:0;text-align:center;background-color:#555560;background-image:linear-gradient(#24243066,#24243099),var(--gatab-imagen,none);background-size:cover;background-position:center;color:#fff}
+.gatab .gatab-title{display:block;font-family:Arial,Helvetica,sans-serif;font-size:42px;font-weight:900;line-height:1.08;letter-spacing:-1.5px;text-transform:uppercase;color:transparent;-webkit-text-stroke:1px #fff;overflow-wrap:anywhere}
+.gatab .gatab-subtitle{display:block;margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:800;line-height:1.7;letter-spacing:4px;text-transform:uppercase;overflow-wrap:anywhere}
+.gatab .gatab-body{padding:35px 35px 0;font-family:Georgia,'Times New Roman',serif;font-size:14px!important;line-height:1.8!important;text-align:justify}
+.gatab .gatab-body b,.gatab .gatab-body strong{color:var(--gatab-acento);font-weight:700}
+.gatab .gatab-body q{font-family:inherit;color:#6699cc!important;font-weight:700!important;font-style:normal;quotes:none}
+.gatab .gatab-body q::before,.gatab .gatab-body q::after{content:none!important}
+.gatab .gatab-foot{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px;margin:30px 35px 35px;padding-top:20px;border-top:1px solid #eaeaea}
+.gatab .gatab-foot span{max-width:100%;padding:4px 8px;border-radius:3px;background:#e9e8e8;color:#5a5a5f;font-family:Arial,Helvetica,sans-serif;font-size:8px!important;font-weight:800;line-height:1.6;letter-spacing:1px;text-transform:uppercase;overflow-wrap:anywhere}
+@media(max-width:500px){.gatab .gatab-body{padding:25px 20px 0}.gatab .gatab-foot{margin:25px 20px}.gatab .gatab-title{font-size:34px}.gatab .gatab-subtitle{letter-spacing:3px}}
