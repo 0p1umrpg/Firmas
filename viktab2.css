@@ -1,0 +1,107 @@
+.viktab2 {
+  --viktab2-acento: var(--grupo-color, #a38787);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 14px;
+  background: linear-gradient(
+    to right,
+    #ceced3 0%,
+    #ceced3 70%,
+    var(--viktab2-acento) 70%,
+    var(--viktab2-acento) 100%
+  ) !important;
+  border: 1px solid #aaa;
+  box-shadow: 0 8px 28px #00000008;
+  color: #4a4a4a;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.viktab2 * {
+  box-sizing: border-box;
+}
+
+.viktab2 .viktab2-marco {
+  min-width: 0;
+  margin: 0;
+  padding: 22px 20px 24px;
+  background: #faf9f7 !important;
+  border: 1px solid var(--viktab2-acento);
+}
+
+.viktab2 .viktab2-cabecera {
+  padding: 8px 0 27px;
+  text-align: center;
+}
+
+.viktab2 .viktab2-titulo {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--viktab2-acento);
+  font: 900 44px/1.1 Arial, Helvetica, sans-serif;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+.viktab2 .viktab2-subtitulo {
+  display: block;
+  margin-top: 6px;
+  color: var(--viktab2-acento);
+  font: 800 10px/1.8 Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+.viktab2 .viktab2-separador {
+  width: 100%;
+  margin: 7px 0 6px;
+  border-top: 1px solid #e4dfdf;
+}
+
+.viktab2 .viktab2-texto {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  text-align: justify;
+}
+
+.viktab2 .viktab2-texto p {
+  margin: 0 0 20px;
+}
+
+.viktab2 .viktab2-texto p:last-child {
+  margin-bottom: 0;
+}
+
+.viktab2 .viktab2-datos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+  margin-top: 30px;
+  padding-top: 17px;
+  border-top: 1px solid #e4dfdf;
+  color: #8a7c80;
+  font: 9px/1.7 Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 450px) {
+  .viktab2 {
+    padding: 10px;
+  }
+
+  .viktab2 .viktab2-marco {
+    padding: 20px 15px;
+  }
+
+  .viktab2 .viktab2-titulo {
+    font-size: 36px;
+  }
+}
