@@ -104,3 +104,16 @@
     transition: none;
   }
 }
+.randyll .randyll-rail {
+  background: linear-gradient(
+    135deg,
+    #262626 0%,
+    #68A85E 45%,
+    #3e6039 65%,
+    #262626 100%
+  );
+}
+
+.randyll .randyll-img {
+  inset: 1px;
+}
