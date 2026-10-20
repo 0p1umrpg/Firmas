@@ -117,3 +117,20 @@
 .randyll .randyll-img {
   inset: 1px;
 }
+.randyll {
+  padding: 5px;
+}
+
+.randyll .randyll-rail {
+  background: linear-gradient(
+    135deg,
+    #262626,
+    #68A85E 45%,
+    #3e6039 65%,
+    #262626
+  );
+}
+
+.randyll .randyll-img {
+  inset: 1px;
+}
