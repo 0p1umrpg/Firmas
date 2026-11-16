@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=IM+Fell+English+SC&display=swap');
+
+.evangeline{--accent:#9A7F79;position:relative;isolation:isolate;width:350px;height:250px;margin:0 auto;overflow:hidden;box-sizing:border-box;background:transparent;border:0}
+.evangeline br{display:none}
+.evangeline-img{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center;background-repeat:no-repeat;transition:filter .8s ease,transform 1s ease}
+.evangeline:before,.evangeline:after{content:"";position:absolute;z-index:2;pointer-events:none}
+.evangeline:before{inset:8px;border:1px solid var(--accent)}
+.evangeline:after{inset:12px;border:1px solid rgba(220,205,200,.45)}
+.evangeline-name{position:absolute;left:30px;top:130px;z-index:3;white-space:nowrap;font-family:'IM Fell English SC',serif!important;font-size:18px!important;font-weight:400;line-height:1;letter-spacing:3px;text-transform:uppercase;color:#fff!important;text-shadow:0 2px 4px #000,0 0 9px #000;transition:opacity .5s ease,transform .6s ease}
+.evangeline-name:first-letter{font-size:32px!important;letter-spacing:1px}
+.evangeline-phrase{position:absolute;left:50%;top:88px;width:220px;z-index:3;opacity:0;text-align:center!important;color:#fff!important;text-shadow:0 2px 5px #000,0 0 12px #000;transform:translate(-50%,7px);transition:opacity .6s ease .15s,transform .7s ease .15s}
+.evangeline-phrase span{display:block;color:#fff!important;font:500 13px/1.45 'Cormorant Garamond',Georgia,serif;letter-spacing:3px;text-transform:uppercase}
+.evangeline-phrase em{display:block;margin-top:3px;color:#fff!important;font:italic 400 27px/1 'Cormorant Garamond',Georgia,serif;letter-spacing:1px}
+.evangeline:hover .evangeline-img{filter:grayscale(1) brightness(.55)!important;transform:scale(1.02)}
+.evangeline:hover .evangeline-name{opacity:0;transform:translateY(5px)}
+.evangeline:hover .evangeline-phrase{opacity:1;transform:translate(-50%,0)}
