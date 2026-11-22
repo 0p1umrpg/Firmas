@@ -55,24 +55,24 @@ body#phpbb .lanarol .wom-rp__cuerpo {
   padding-top: 32px !important;
 }
 
-/* Única capitular, al principio del texto */
+/* Capitular Mollani: ancho automático y reserva proporcional */
 body#phpbb .lanarol .wom-rp__cuerpo .lanarol__drop {
   float: left !important;
   display: block !important;
   box-sizing: content-box !important;
-  width: 75px !important;
-  height: 42px !important;
-  margin: 12px 8px 0 0 !important;
-  padding: 0 !important;
+  width: auto !important;
+  height: 1.55em !important;
+  margin: 4px 4px 0 0 !important;
+  padding: 0 1em 0 0 !important;
   font-family: "Mollani", serif !important;
-  font-size: 46px !important;
+  font-size: 32px !important;
   font-weight: 400 !important;
   font-style: normal !important;
   line-height: 1 !important;
   color: #a9c4ff !important;
 }
 
-/* Evita capitulares automáticas en las letras iniciales de los párrafos */
+/* Evita capitulares automáticas en los párrafos que genere el foro */
 body#phpbb .lanarol.wom-rp .wom-rp__cuerpo p::first-letter,
 body#phpbb .lanarol.wom-rp .wom-rp__cuerpo p:first-letter {
   float: none !important;
