@@ -55,38 +55,29 @@ body#phpbb .lanarol .wom-rp__cuerpo {
   padding-top: 32px !important;
 }
 
-/* Primer párrafo: conserva la capitular dentro del texto */
-body#phpbb .lanarol .wom-rp__cuerpo .lanarol__inicio {
-  display: block;
-  clear: none;
-  margin: 0 0 18px !important;
-  padding: 0 !important;
-}
-
-/* Capitular Mollani */
-body#phpbb .lanarol .wom-rp__cuerpo span.lanarol__drop {
+/* Capitular: ancho natural, como en el CSS de referencia */
+body#phpbb .lanarol .wom-rp__cuerpo .lanarol__drop {
   float: left !important;
   display: block !important;
-  box-sizing: border-box !important;
-  width: 84px !important;
-  height: 72px !important;
-  margin: 5px 6px 0 0 !important;
+  width: auto !important;
+  height: 42px !important;
+  margin: 12px 8px 0 0 !important;
   padding: 0 !important;
   font-family: "Mollani", serif !important;
-  font-size: 38px !important;
+  font-size: 46px !important;
   font-weight: 400 !important;
   font-style: normal !important;
   line-height: 1 !important;
-  color: #8fa8d2 !important;
+  color: #a9c4ff !important;
 }
 
-/* Evita que la tablilla aplique otra capitular a los párrafos */
-body#phpbb .lanarol .wom-rp__cuerpo p::first-letter,
-body#phpbb .lanarol .wom-rp__cuerpo p:first-letter {
+/* Evita que aparezca otra capitular automática */
+body#phpbb .lanarol.wom-rp .wom-rp__cuerpo::first-letter,
+body#phpbb .lanarol.wom-rp .wom-rp__cuerpo:first-letter,
+body#phpbb .lanarol.wom-rp .wom-rp__cuerpo p::first-letter,
+body#phpbb .lanarol.wom-rp .wom-rp__cuerpo p:first-letter {
   float: none !important;
-  font-family: inherit !important;
-  font-size: inherit !important;
-  font-weight: inherit !important;
+  font: inherit !important;
   font-style: inherit !important;
   line-height: inherit !important;
   color: inherit !important;
@@ -94,7 +85,7 @@ body#phpbb .lanarol .wom-rp__cuerpo p:first-letter {
   padding: 0 !important;
 }
 
-/* Color de las negritas */
+/* Negritas */
 .lanarol .wom-rp__cuerpo b,
 .lanarol .wom-rp__cuerpo strong {
   color: #d7bde2;
