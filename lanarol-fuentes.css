@@ -50,13 +50,14 @@ body#phpbb .lanarol .wom-rl__cap {
   background: #a9c4ff;
 }
 
-/* Cuerpo */
-body#phpbb .lanarol .wom-rp__cuerpo {
+/* Texto: conserva los saltos de línea que escribas */
+body#phpbb .lanarol.wom-rp .wom-rp__marco .wom-rp__cuerpo {
   padding-top: 32px !important;
+  white-space: pre-line !important;
 }
 
-/* Capitular Mollani: ancho automático y reserva proporcional */
-body#phpbb .lanarol .wom-rp__cuerpo .lanarol__drop {
+/* Capitular Mollani */
+body#phpbb .lanarol.wom-rp .wom-rp__marco .wom-rp__cuerpo > span.lanarol__drop {
   float: left !important;
   display: block !important;
   box-sizing: content-box !important;
@@ -65,22 +66,18 @@ body#phpbb .lanarol .wom-rp__cuerpo .lanarol__drop {
   margin: 4px 4px 0 0 !important;
   padding: 0 1em 0 0 !important;
   font-family: "Mollani", serif !important;
-  font-size: 32px !important;
+  font-size: 28px !important;
   font-weight: 400 !important;
   font-style: normal !important;
   line-height: 1 !important;
   color: #a9c4ff !important;
 }
 
-/* Evita capitulares automáticas en los párrafos que genere el foro */
-body#phpbb .lanarol.wom-rp .wom-rp__cuerpo p::first-letter,
-body#phpbb .lanarol.wom-rp .wom-rp__cuerpo p:first-letter {
+/* Evita que el foro convierta otras iniciales en capitulares */
+body#phpbb .lanarol.wom-rp .wom-rp__marco .wom-rp__cuerpo p::first-letter,
+body#phpbb .lanarol.wom-rp .wom-rp__marco .wom-rp__cuerpo p:first-letter {
   float: none !important;
-  font-family: inherit !important;
-  font-size: inherit !important;
-  font-weight: inherit !important;
-  font-style: inherit !important;
-  line-height: inherit !important;
+  font: inherit !important;
   color: inherit !important;
   margin: 0 !important;
   padding: 0 !important;
