@@ -18,17 +18,29 @@
   font-weight: 400 !important;
 }
 
-/* Capitular de la primera palabra */
-.lanarol.wom-rp .wom-rp__cuerpo .lanarol__drop {
-  float: left;
-  display: block;
-  width: auto;
-  height: 1.55em;
-  margin: 4px 3px 0 0;
-  padding-right: 1em;
-  font-family: "Mollani", serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1;
-  color: #a9c4ff;
+/* Capitular Mollani */
+.lanarol.wom-rp .wom-rp__cuerpo .lanarol__capitular {
+  float: left !important;
+  display: block !important;
+  box-sizing: content-box !important;
+  width: 2.15em !important;
+  height: 1.55em !important;
+  margin: 4px 0.1em 0 0 !important;
+  padding: 0 !important;
+  font-family: "Mollani", serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1 !important;
+  color: #a9c4ff !important;
+}
+
+/* Evita capitulares automáticas en el resto de los párrafos */
+.lanarol.wom-rp .wom-rp__cuerpo p::first-letter,
+.lanarol.wom-rp .wom-rp__cuerpo p:first-letter {
+  float: none !important;
+  font: inherit !important;
+  color: inherit !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
