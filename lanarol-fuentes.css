@@ -9,8 +9,8 @@ body#phpbb .lanarol .wom-rl__cap{font-family:"Lordish",serif!important;font-size
 
 body#phpbb .lanarol .wom-rp__cuerpo{padding-top:32px!important}
 body#phpbb .lanarol .wom-rp__cuerpo .lanarol__inicio{display:block;clear:none;margin:0 0 18px!important;padding:0!important}
-body#phpbb .lanarol .wom-rp__cuerpo span.lanarol__drop{float:left!important;display:block!important;width:92px!important;height:76px!important;margin:5px 8px 0 0!important;padding:0!important;font-family:"Mollani",serif!important;font-size:44px!important;font-weight:400!important;line-height:1!important;color:#8fa8d2!important}
+body#phpbb .lanarol .wom-rp__cuerpo span.lanarol__drop{float:left!important;display:block!important;width:64px!important;height:76px!important;margin:5px 8px 0 0!important;padding:0!important;font-family:"Mollani",serif!important;font-size:44px!important;font-weight:400!important;line-height:1!important;color:#8fa8d2!important}
 
-body#phpbb .lanarol .wom-rp__cuerpo p::first-letter{float:none!important;font-family:inherit!important;font-size:inherit!important;font-weight:inherit!important;line-height:inherit!important;color:inherit!important;margin:0!important}
+body#phpbb .lanarol .wom-rp__cuerpo p::first-letter{float:none!important;font:inherit!important;font-style:normal!important;color:inherit!important;margin:0!important}
 
 .lanarol .wom-rp__cuerpo b,.lanarol .wom-rp__cuerpo strong{color:#d7bde2}
