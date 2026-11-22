@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&display=swap");
 
 @font-face{font-family:"DreadGothic";src:url("https://cdn.jsdelivr.net/gh/0p1umrpg/Firmas@main/DreadGothic-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"BlackGothics";src:url("https://cdn.jsdelivr.net/gh/0p1umrpg/Firmas@main/Black-Gothics-Demo.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"BlackGothics";src:url("https://cdn.jsdelivr.net/gh/0p1umrpg/Firmas@main/BlackGothicsDemoRegular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
 
-.lanarol .wom-rl__cap{font-family:"BlackGothics",serif!important;font-size:36px;line-height:1.2;text-align:center;color:#a9c4ff;margin:0 0 6px}
+body#phpbb .lanarol .wom-rl__cap{font-family:"BlackGothics",serif!important;font-size:36px;line-height:1.2;text-align:center;color:#a9c4ff;margin:0 0 6px}
 .lanarol .wom-rp__sub{display:flex;align-items:center;justify-content:center;gap:10px;font-family:"Source Serif 4",serif;font-size:8pt;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#a9c4ff;margin:0 0 18px}
 .lanarol .wom-rp__sub:before,.lanarol .wom-rp__sub:after{content:"";width:28px;height:1px;background:#a9c4ff}
-.lanarol .wom-rp__cuerpo .lanarol__drop{float:left;display:block;width:42px;height:48px;margin:5px 8px 0 0;padding:0;font-family:"DreadGothic",serif!important;font-size:52px!important;font-weight:400;line-height:1;color:#8fa8d2!important}
+
+body#phpbb .lanarol .wom-rp__cuerpo .lanarol__drop{float:left!important;display:block!important;width:42px!important;height:48px!important;margin:5px 8px 0 0!important;padding:0!important;font-family:"DreadGothic",serif!important;font-size:52px!important;font-weight:400!important;line-height:1!important;color:#8fa8d2!important}
 .lanarol .wom-rp__cuerpo .lanarol__inicio{clear:none}
 .lanarol .wom-rp__cuerpo p.lanarol__inicio::first-letter{font:inherit!important;color:inherit!important;float:none!important}
 .lanarol .wom-rp__cuerpo b,.lanarol .wom-rp__cuerpo strong{color:#d7bde2}
