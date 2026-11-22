@@ -1,0 +1,5 @@
+@font-face{font-family:'Lanarol-Titulo';src:url('https://cdn.jsdelivr.net/gh/rcorvere/Firmas@main/Lordish-Regular.ttf') format('truetype');}
+@font-face{font-family:'Lanarol-Capitular';src:url('https://cdn.jsdelivr.net/gh/rcorvere/Firmas@main/DreadGothic-Regular.ttf') format('truetype');}
+
+.wom-rp .wom-rp__titulo{font-family:'Lanarol-Titulo',serif !important;font-style:normal !important;}
+.wom-rp .lanarol__capitular{float:left;font-family:'Lanarol-Capitular',serif;font-size:3.6em;line-height:.8;padding:.06em .1em 0 0;}
