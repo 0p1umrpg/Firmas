@@ -50,17 +50,10 @@ body#phpbb .lanarol .wom-rl__cap {
   background: #a9c4ff;
 }
 
-/* Texto: conserva los saltos de línea que escribas */
-body#phpbb .lanarol.wom-rp .wom-rp__marco .wom-rp__cuerpo {
-  padding-top: 32px !important;
-  white-space: pre-line !important;
-}
-
-/* Capitular Mollani */
-body#phpbb .lanarol.wom-rp .wom-rp__marco .wom-rp__cuerpo > span.lanarol__drop {
+/* Capitular */
+body#phpbb .lanarol .wom-rp__cuerpo span.wom-rol__drop {
   float: left !important;
   display: block !important;
-  box-sizing: content-box !important;
   width: auto !important;
   height: 1.55em !important;
   margin: 4px 4px 0 0 !important;
@@ -73,9 +66,9 @@ body#phpbb .lanarol.wom-rp .wom-rp__marco .wom-rp__cuerpo > span.lanarol__drop {
   color: #a9c4ff !important;
 }
 
-/* Evita que el foro convierta otras iniciales en capitulares */
-body#phpbb .lanarol.wom-rp .wom-rp__marco .wom-rp__cuerpo p::first-letter,
-body#phpbb .lanarol.wom-rp .wom-rp__marco .wom-rp__cuerpo p:first-letter {
+/* Impide una segunda capitular automática */
+body#phpbb .lanarol .wom-rp__cuerpo p::first-letter,
+body#phpbb .lanarol .wom-rp__cuerpo p:first-letter {
   float: none !important;
   font: inherit !important;
   color: inherit !important;
