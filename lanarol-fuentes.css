@@ -50,16 +50,17 @@ body#phpbb .lanarol .wom-rl__cap {
   background: #a9c4ff;
 }
 
-/* Espacio antes del texto */
+/* Cuerpo */
 body#phpbb .lanarol .wom-rp__cuerpo {
   padding-top: 32px !important;
 }
 
-/* Capitular: ancho natural, como en el CSS de referencia */
+/* Única capitular, al principio del texto */
 body#phpbb .lanarol .wom-rp__cuerpo .lanarol__drop {
   float: left !important;
   display: block !important;
-  width: auto !important;
+  box-sizing: content-box !important;
+  width: 75px !important;
   height: 42px !important;
   margin: 12px 8px 0 0 !important;
   padding: 0 !important;
@@ -71,13 +72,13 @@ body#phpbb .lanarol .wom-rp__cuerpo .lanarol__drop {
   color: #a9c4ff !important;
 }
 
-/* Evita que aparezca otra capitular automática */
-body#phpbb .lanarol.wom-rp .wom-rp__cuerpo::first-letter,
-body#phpbb .lanarol.wom-rp .wom-rp__cuerpo:first-letter,
+/* Evita capitulares automáticas en las letras iniciales de los párrafos */
 body#phpbb .lanarol.wom-rp .wom-rp__cuerpo p::first-letter,
 body#phpbb .lanarol.wom-rp .wom-rp__cuerpo p:first-letter {
   float: none !important;
-  font: inherit !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
   font-style: inherit !important;
   line-height: inherit !important;
   color: inherit !important;
