@@ -7,7 +7,7 @@ body#phpbb .lanarol .wom-rl__cap{font-family:"BlackGothics",serif!important;font
 .lanarol .wom-rp__sub{display:flex;align-items:center;justify-content:center;gap:10px;font-family:"Source Serif 4",serif;font-size:8pt;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#a9c4ff;margin:0 0 18px}
 .lanarol .wom-rp__sub:before,.lanarol .wom-rp__sub:after{content:"";width:28px;height:1px;background:#a9c4ff}
 
-body#phpbb .lanarol .wom-rp__cuerpo .lanarol__drop{float:left!important;display:block!important;width:42px!important;height:48px!important;margin:5px 8px 0 0!important;padding:0!important;font-family:"DreadGothic",serif!important;font-size:52px!important;font-weight:400!important;line-height:1!important;color:#8fa8d2!important}
-.lanarol .wom-rp__cuerpo .lanarol__inicio{clear:none}
-.lanarol .wom-rp__cuerpo p.lanarol__inicio::first-letter{font:inherit!important;color:inherit!important;float:none!important}
+body#phpbb .lanarol .wom-rp__cuerpo{padding-top:32px!important}
+body#phpbb .lanarol .wom-rp__cuerpo span.lanarol__drop{float:left!important;display:block!important;width:42px!important;height:48px!important;margin:5px 8px 0 0!important;padding:0!important;font-family:"DreadGothic",serif!important;font-size:52px!important;font-weight:400!important;line-height:1!important;color:#8fa8d2!important}
+
 .lanarol .wom-rp__cuerpo b,.lanarol .wom-rp__cuerpo strong{color:#d7bde2}
