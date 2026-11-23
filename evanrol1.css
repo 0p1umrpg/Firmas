@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Jost:wght@500&display=swap');
+@font-face{font-family:'EvanCap';src:url('https://cdn.jsdelivr.net/gh/rcorvere/Firmas@main/x');font-display:swap}
+
+.evanrol{max-width:760px;margin:0 auto;font-family:'Cormorant Garamond',Georgia,serif;color:#e8e6ea}
+.evanrol__marco{position:relative;border:1.5px solid #B5788F;padding:8px;background:#14151c}
+.evanrol__marco::before{content:"";position:absolute;top:8px;right:8px;bottom:8px;left:8px;border:1px solid rgba(255,255,255,.18);pointer-events:none}
+.evanrol__cab{text-align:center;padding:38px 20px 24px}
+.evanrol__titulo{margin:0;padding:0;border:0;background:none;font-family:'Mrs Saint Delafield',cursive;font-weight:400;font-size:64px;line-height:1.15;color:#f4f1f3}
+.evanrol__sub{margin-top:8px;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.4em;text-transform:uppercase;color:#B5788F}
+.evanrol__cab::after{content:"";display:block;width:140px;height:1px;margin:20px auto 0;background:rgba(181,120,143,.6)}
+.evanrol__cuerpo{margin:0 14px;padding:28px 44px 22px;background:#101117;border:1px solid rgba(255,255,255,.08);border-bottom:0;font-size:18px;line-height:2;text-align:justify;white-space:pre-line}
+.evanrol__cuerpo .evanrol__dia{color:#B5788F;font-weight:400}
+.evanrol__cap{float:left;font-family:'EvanCap',serif;font-size:66px;line-height:.85;color:#B5788F;padding:6px 10px 0 0}
+.evanrol__datos{display:flex;margin:0 14px 14px;padding:16px 30px 20px;background:#101117;border:1px solid rgba(255,255,255,.08);border-top:1px solid rgba(255,255,255,.14);text-align:center}
+.evanrol__datos>div{flex:1;border-right:1px solid rgba(255,255,255,.1)}
+.evanrol__datos>div:last-child{border-right:0}
+.evanrol__datos small{display:block;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:#B5788F}
+.evanrol__datos span{display:block;font-style:italic;font-size:15px;color:#e8e6ea}
