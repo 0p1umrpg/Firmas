@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Jost:wght@500&display=swap');
+@font-face{font-family:'EvanCap';src:url('https://cdn.jsdelivr.net/gh/rcorvere/Firmas@main/Narony.ttf');font-display:swap}
+
+.evanrol{--acc:#A2607C;--acc-soft:rgba(162,96,124,.55);--txt:#2b2b33;--title:#2b2530;--bg1:#f3e8ed;--bg2:#ffffff;--frame:rgba(60,40,50,.28);--side:rgba(0,0,0,.1);--div:rgba(0,0,0,.18);--sep:rgba(0,0,0,.12);max-width:760px;margin:0 auto;font-family:'Cormorant Garamond',Georgia,serif;color:var(--txt)}
+html.wom-luna .evanrol{--acc:#B5788F;--acc-soft:rgba(181,120,143,.6);--txt:#e8e6ea;--title:#f4f1f3;--bg1:#1e2029;--bg2:#16171f;--frame:rgba(255,255,255,.18);--side:rgba(255,255,255,.08);--div:rgba(255,255,255,.14);--sep:rgba(255,255,255,.1)}
+
+.evanrol__marco{position:relative;border:1.5px solid var(--acc);padding:8px;background:linear-gradient(180deg,var(--bg1) 0,var(--bg2) 260px)}
+.evanrol__marco::before{content:"";position:absolute;top:8px;right:8px;bottom:8px;left:8px;border:1px solid var(--frame);pointer-events:none}
+.evanrol__cab{text-align:center;padding:38px 20px 24px}
+.evanrol .evanrol__titulo{margin:0!important;padding:0!important;border:0!important;background:none!important;font-family:'Mrs Saint Delafield',cursive!important;font-weight:400!important;font-size:64px!important;line-height:1.1!important;color:var(--title)!important}
+.evanrol .evanrol__sub{margin-top:-55px!important;font-family:'Jost',sans-serif!important;font-size:11px!important;letter-spacing:.4em;text-transform:uppercase;color:var(--acc)!important}
+.evanrol__cab::after{content:"";display:block;width:140px;height:1px;margin:20px auto 0;background:var(--acc-soft)}
+.evanrol__cuerpo{margin:0 14px;padding:28px 44px 22px;border-left:1px solid var(--side);border-right:1px solid var(--side);font-size:18px;line-height:2;text-align:justify;color:var(--txt)}
+.evanrol .evanrol__cuerpo b,.evanrol .evanrol__cuerpo strong{color:var(--acc)!important;font-weight:400!important}
+.evanrol .evanrol__cap{float:left;font-family:'EvanCap',serif!important;text-transform:uppercase;font-size:80px;line-height:.85;color:var(--acc)!important;padding:6px 10px 0 0}
+.evanrol__datos{position:relative;display:flex;margin:0 14px 14px;padding:24px 30px 20px;border-left:1px solid var(--side);border-right:1px solid var(--side);text-align:center}
+.evanrol__datos::before{content:"";position:absolute;top:0;left:30px;right:30px;height:1px;background:linear-gradient(90deg,var(--div) calc(50% - 14px),transparent calc(50% - 14px),transparent calc(50% + 14px),var(--div) calc(50% + 14px))}
+.evanrol__datos::after{content:"";position:absolute;top:-3px;left:calc(50% - 3px);width:6px;height:6px;background:var(--acc);transform:rotate(45deg)}
+.evanrol__datos>div{flex:1;border-right:1px solid var(--sep)}
+.evanrol__datos>div:last-child{border-right:0}
+.evanrol .evanrol__datos small{display:block;font-family:'Jost',sans-serif!important;font-size:11px!important;letter-spacing:.25em;text-transform:uppercase;color:var(--acc)!important}
+.evanrol .evanrol__datos span{display:block;font-style:italic;font-size:15px;color:var(--txt)}
