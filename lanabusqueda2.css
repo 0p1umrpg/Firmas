@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Jost:wght@500&display=swap');
+@font-face{font-family:'Lanabusqueda-Capitular';src:url('https://cdn.jsdelivr.net/gh/rcorvere/Firmas@main/Mollani-Regular.ttf') format('truetype');}
+
+.wom-bt .wom-bt__img{max-height:170px !important;overflow:hidden !important;}
+.wom-bt .wom-bt__img img{width:100% !important;height:170px !important;object-fit:cover !important;object-position:center top !important;}
+
+.wom-bt .wom-bt__texto{display:flow-root !important;font-size:1.1em !important;line-height:1.9 !important;}
+
+.wom-bt .lanabusqueda__cab{text-align:center;padding:14px 20px 24px;}
+.wom-bt .lanabusqueda__cab::after{content:"";display:block;width:140px;height:1px;margin:20px auto 0;background:rgba(168,189,232,.6);}
+
+.wom-bt .lanabusqueda__tit{margin:0 !important;padding:0 !important;border:0 !important;background:none !important;font-family:'Mrs Saint Delafield',cursive !important;font-weight:400 !important;font-style:normal !important;font-size:64px !important;line-height:1.1 !important;text-align:center !important;color:#2b2530 !important;-webkit-text-fill-color:#2b2530 !important;}
+html.wom-luna .wom-bt .lanabusqueda__tit{color:#f4f1f3 !important;-webkit-text-fill-color:#f4f1f3 !important;}
+
+.wom-bt .lanabusqueda__sub{margin-top:-28px !important;line-height:1.2 !important;font-family:'Jost',sans-serif !important;font-size:11px !important;letter-spacing:.4em;text-transform:uppercase;text-align:center !important;color:#a8bde8 !important;}
+
+.wom-bt .wom-bt__texto span.lanabusqueda__cap{float:left !important;font-family:'Lanabusqueda-Capitular',serif !important;font-size:3.8em !important;line-height:1 !important;margin-top:.25em !important;padding:0 .3em 0 0 !important;color:#a8bde8 !important;-webkit-text-fill-color:#a8bde8 !important;font-weight:normal !important;font-style:normal !important;}
+.wom-bt .wom-bt__texto span.lanabusqueda__cap.lanabusqueda__ancha{padding-right:.6em !important;}
