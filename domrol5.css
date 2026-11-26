@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Jost:wght@500&display=swap');
 @font-face{font-family:'DomrolCap';src:url('https://cdn.jsdelivr.net/gh/rcorvere/Firmas@main/Respective2.ttf');font-display:swap}
-@font-face{font-family:'DomrolTit';src:url('https://cdn.jsdelivr.net/gh/rcorvere/Firmas@main/Firasat.ttf');font-display:swap}
+@font-face{font-family:'DomrolTit';src:url('https://cdn.jsdelivr.net/gh/rcorvere/Firmas@main/Firasat.otf') format('opentype');font-display:swap}
 
 .domrol{--acc:#8C7351;--acc-soft:rgba(140,115,81,.55);--dlg:#3399ff;--txt:#2b2b33;--title:#2e2a24;--bg1:#f1ece3;--bg2:#ffffff;--frame:rgba(60,50,35,.28);--side:rgba(0,0,0,.1);--div:rgba(0,0,0,.18);--sep:rgba(0,0,0,.12);max-width:760px;margin:0 auto;font-family:'Cormorant Garamond',Georgia,serif;color:var(--txt)}
 html.wom-luna .domrol{--acc:#B39A73;--acc-soft:rgba(179,154,115,.6);--dlg:#66B3FF;--txt:#e8e6ea;--title:#f3efe8;--bg1:#1e2029;--bg2:#16171f;--frame:rgba(255,255,255,.18);--side:rgba(255,255,255,.08);--div:rgba(255,255,255,.14);--sep:rgba(255,255,255,.1)}
