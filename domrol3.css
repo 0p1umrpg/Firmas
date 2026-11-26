@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Jost:wght@500&display=swap');
+@font-face{font-family:'DomrolCap';src:url('https://cdn.jsdelivr.net/gh/rcorvere/Firmas@main/Respective2.ttf');font-display:swap}
+
+.domrol{--acc:#8C7351;--acc-soft:rgba(140,115,81,.55);--dlg:#3399ff;--txt:#2b2b33;--title:#2e2a24;--bg1:#f1ece3;--bg2:#ffffff;--frame:rgba(60,50,35,.28);--side:rgba(0,0,0,.1);--div:rgba(0,0,0,.18);--sep:rgba(0,0,0,.12);max-width:760px;margin:0 auto;font-family:'Cormorant Garamond',Georgia,serif;color:var(--txt)}
+html.wom-luna .domrol{--acc:#B39A73;--acc-soft:rgba(179,154,115,.6);--dlg:#66B3FF;--txt:#e8e6ea;--title:#f3efe8;--bg1:#1e2029;--bg2:#16171f;--frame:rgba(255,255,255,.18);--side:rgba(255,255,255,.08);--div:rgba(255,255,255,.14);--sep:rgba(255,255,255,.1)}
+
+.domrol__marco{position:relative;border:1.5px solid var(--acc);padding:8px;background:linear-gradient(180deg,var(--bg1) 0,var(--bg2) 260px)}
+.domrol__marco::before{content:"";position:absolute;top:8px;right:8px;bottom:8px;left:8px;border:1px solid var(--frame);pointer-events:none}
+.domrol__cab{text-align:center;padding:38px 20px 24px}
+.domrol .domrol__titulo{margin:0!important;padding:0!important;border:0!important;background:none!important;font-family:'Birthstone',cursive!important;font-weight:400!important;font-style:normal!important;font-size:66px!important;line-height:1!important;color:var(--title)!important;-webkit-text-fill-color:var(--title)!important}
+.domrol .domrol__sub{margin-top:-8px!important;font-family:'Jost',sans-serif!important;font-size:11px!important;letter-spacing:.4em;text-transform:uppercase;color:var(--acc)!important}
+.domrol__cab::after{content:"";display:block;width:140px;height:1px;margin:20px auto 0;background:var(--acc-soft)}
+.domrol__cuerpo{margin:0 14px;padding:28px 44px 22px;border-left:1px solid var(--side);border-right:1px solid var(--side);font-size:18px;line-height:2;text-align:justify;color:var(--txt)}
+.domrol .domrol__cuerpo b,.domrol .domrol__cuerpo strong{color:var(--dlg)!important;font-weight:400!important}
+.domrol .domrol__cap{float:left;font-family:'DomrolCap',serif!important;font-size:80px;line-height:.85;color:var(--acc)!important;-webkit-text-fill-color:var(--acc)!important;padding:6px 10px 0 0}
+.domrol__datos{position:relative;display:flex;margin:0 14px 14px;padding:24px 30px 20px;border-left:1px solid var(--side);border-right:1px solid var(--side);text-align:center}
+.domrol__datos::before{content:"";position:absolute;top:0;left:30px;right:30px;height:1px;background:linear-gradient(90deg,var(--div) calc(50% - 14px),transparent calc(50% - 14px),transparent calc(50% + 14px),var(--div) calc(50% + 14px))}
+.domrol__datos::after{content:"";position:absolute;top:-3px;left:calc(50% - 3px);width:6px;height:6px;background:var(--acc);transform:rotate(45deg)}
+.domrol__datos>div{flex:1;border-right:1px solid var(--sep)}
+.domrol__datos>div:last-child{border-right:0}
+.domrol .domrol__datos small{display:block;font-family:'Jost',sans-serif!important;font-size:11px!important;letter-spacing:.25em;text-transform:uppercase;color:var(--acc)!important}
+.domrol .domrol__datos span{display:block;font-style:italic;font-size:15px;color:var(--txt)}
